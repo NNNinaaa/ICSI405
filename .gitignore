@@ -3,6 +3,8 @@ back-end/node_modules/
 front-end/node_modules/
 back-end/.idea/
 front-end/.idea/
+.idea/
+
 *.com
 *.class
 *.dll
