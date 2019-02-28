@@ -31,13 +31,14 @@ Agile Software Development Life Cycle ийн талаар сонирхолтой
 
 **Сурах зүйлс:**
 
-  * [PostgreSQL](http://www.postgresqltutorial.com/) -> үндсэн toturial сайт нь юм шиг байналээшүү.
+  * [Mongodb](https://www.tutorialspoint.com/mongodb/) -> үндсэн toturial сайт нь юм шиг байналээшүү.
+  * [Moongoose](https://mongoosejs.com/docs/) -> mongodb ийн холболт болон ашиглалтыг хийх үндсэн nodejs ийн framework
   * [NodeJs](https://freeudemypremiumcourses.blogspot.com/2016/08/udemy-course-learn-and-understand-nodejs.html) -> энэ хичээлийг бөөнөөрөө үзий.
-  * [KoaJs](https://mherman.org/blog/building-a-restful-api-with-koa-and-postgres/) -> энэ 6 нь Part - тай хичээл байнлээ энийг багаараа хийжвэл их сайн байна шүү!!
+  * [Express](https://expressjs.com/en/starter/installing.html) -> энэ 6 нь Part - тай хичээл байнлээ энийг багаараа хийжвэл их сайн байна шүү!!
   * [ReactJs]() -> гое хичээлтэй газар олдодгүй 2.
   * [RestAPI](https://hackernoon.com/o-api-an-alternative-to-rest-apis-e9a2ed53b93c) -> за энэ meduim article ийг нэг уншаад үзээрэй тэгвэл бараг юуг Rest API гэж байгааг ойлгоно. Rest API яагаад хэрэгтэй вэ? Бид нар угаасаа Back-end ээ Nodejs -> KoaJs гээд Front-end ээ react гэснээс хойш 2 өөр framework яаж хоорондоо мэдээлэл солилцох вэ гэсэн асуудал гарж байгаа билээ. Үүний өнөө үеийн хамгийн энгийн шийдэл нь энэ билээ.
   * [MVC architecture](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df30) -> Энэ сэдвээр зүгээр MVC гэж юу болох талаар ойлгоод авчихаарай. Манай project гайгүй жижигхэн болхоор зүгээр MVC architecture зүгээр болжих байх гэж бодсон болно.
-
+  * [Complete guide](https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274) -> Энэхүү сайт дээр үндсэн бүх хийх ёстой үйлдэлүүдийг маань интеграц хийгээд өгцөн байна.
 За тэгээд илүү гоё хичээлтэй resource олбол хэлээрэй бүгдээрээ хамт сураад хурдан дуусгана гэдэгт итгэлтэй байгаа шүү!!!
 
 ## Үндсэн зорилго
@@ -46,7 +47,7 @@ Agile Software Development Life Cycle ийн талаар сонирхолтой
   * Хэрэглэгч computer ийн эд анги сонгоход тухайн эд ангитай зохистой ажилдаг component уудыг харуулах.
   * Хэрэглэгч нэвтрэн орж өөрийн сэлбэгээ бүртгэдэг байх.
 
-Багаараа нэг энэ сайт шиг ажилдаг юум хийвэл илүү сонирхолтой юм болуу гэж бодлоо Link -> https://pcpartpicker.com тэр дундаа энэ линкэн дээрх ийг нь https://pcpartpicker.com/list/
+Багаараа Link -> https://pcpartpicker.com нэг энэ сайт шиг ажилдаг юм хийвэл илүү сонирхолтой юм болуу гэж бодлоо.
 
 ## Үндсэн хийгдэх ажилууд
 

@@ -1,29 +1,19 @@
-const Koa = require('koa');
-const app = new Koa();
+const express = require('express');
+const mongoose = require('mongoose');
+const app = express();
 
-// logger
+const dbUrl = 'mongodb://appUser:LSBp9gN24k62hY8M@cluster0-shard-00-00-fsalh.mongodb.net:27017,cluster0-shard-00-01-fsalh.mongodb.net:27017,cluster0-shard-00-02-fsalh.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true';
+const Message = mongoose.model('Message',{ name : String, message : String});
 
-app.use(async (ctx, next) => {
-  await next();
-  const rt = ctx.response.get('X-Response-Time');
-  console.log(`${ctx.method} ${ctx.url} - ${rt}`);
+mongoose.connect(dbUrl , (err) => {
+  console.log('mongodb connected',err);
 });
 
-// x-response-time
-
-app.use(async (ctx, next) => {
-  const start = Date.now();
-  await next();
-  const ms = Date.now() - start;
-  ctx.set('X-Response-Time', `${ms}ms`);
+app.get('/',(req,res)=>{
+    Message.find({},(err, messages)=> {
+        res.send(messages);
+    });
 });
-
-// response
-
-app.use(async ctx => {
-  ctx.body = 'Hello World';
-});
-
-app.listen(4550,()=>{
+app.listen(3000,()=>{
   console.log("Server started on 127.0.0.1:4550...");
 });
